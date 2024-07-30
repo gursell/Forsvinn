@@ -1,0 +1,109 @@
+{
+  "menu": {
+    "huvudrätter": [
+      {
+        "id": 1,
+        "kategori": "huvudrätter",
+        "namn": "Köttbullar med Potatismos",
+        "beskrivning": "Klassiska svenska köttbullar serverade med potatismos, lingonsylt och gräddsås.",
+        "pris": 150,
+        "sold Out": false,
+        "sold_out": true
+      },
+      {
+        "id": 2,
+        "kategori": "huvudrätter",
+        "namn": "Gravad Lax med Dillstuvad Potatis",
+        "beskrivning": "Kallrökt lax serverad med dillstuvad potatis och hovmästarsås.",
+        "pris": 180,
+        "sold Out": false
+      },
+      {
+        "id": 3,
+        "kategori": "huvudrätter",
+        "namn": "Pytt i Panna",
+        "beskrivning": "En blandning av stekta potatisbitar, lök och kött, toppad med ett stekt ägg.",
+        "pris": 140,
+        "sold Out": false
+      }
+    ],
+    "förrätter": [
+      {
+        "id": 4,
+        "kategori": "förrätter",
+        "namn": "Skagenröra på Toast",
+        "beskrivning": "Krämig röra av räkor, majonnäs, dill och citron, serverad på rostat bröd.",
+        "pris": 120,
+        "sold Out": false
+      },
+      {
+        "id": 5,
+        "kategori": "förrätter",
+        "namn": "Räksallad",
+        "beskrivning": "Färska räkor serverade på en bädd av sallad med dill och citron.",
+        "pris": 110,
+        "sold Out": false
+      },
+      {
+        "id": 6,
+        "kategori": "förrätter",
+        "namn": "Gubbröra",
+        "beskrivning": "Traditionell blandning av ansjovis, ägg, och lök på kavring.",
+        "pris": 100,
+        "sold Out": false
+      }
+    ],
+    "desserter": [
+      {
+        "id": 7,
+        "kategori": "desserter",
+        "namn": "Kladdkaka",
+        "beskrivning": "Chokladtårta med en kladdig och krämig insida, serverad med vispad grädde.",
+        "pris": 80,
+        "sold Out": false
+      },
+      {
+        "id": 8,
+        "kategori": "desserter",
+        "namn": "Äppelpaj med Vaniljsås",
+        "beskrivning": "Svensk äppelpaj serverad med vaniljsås.",
+        "pris": 90,
+        "sold Out": false
+      },
+      {
+        "id": 9,
+        "kategori": "desserter",
+        "namn": "Prinsesstårta",
+        "beskrivning": "En tårta med lager av sockerkaka, sylt, vaniljkräm, och grädde, täckt med marsipan.",
+        "pris": 100,
+        "sold Out": false
+      }
+    ],
+    "drycker": [
+      {
+        "id": 10,
+        "kategori": "drycker",
+        "namn": "Svart kaffe",
+        "beskrivning": "Starkt bryggt kaffe utan tillsatser.",
+        "pris": 40,
+        "sold Out": false
+      },
+      {
+        "id": 11,
+        "kategori": "drycker",
+        "namn": "Lingondricka",
+        "beskrivning": "Traditionell svensk dryck gjord på lingon.",
+        "pris": 50,
+        "sold Out": false
+      },
+      {
+        "id": 12,
+        "kategori": "drycker",
+        "namn": "Punsch",
+        "beskrivning": "Svensk söt spritdryck, ofta serverad varm.",
+        "pris": 70,
+        "sold Out": false
+      }
+    ]
+  }
+}
