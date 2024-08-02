@@ -18,24 +18,16 @@ h3 {
 
 h1 {
   font-size: 2.5em;
-  /* Font boyutunu artırdım */
 }
 
 h2 {
   font-size: 2.2em;
-  /* Daha büyük bir font boyutu */
   font-weight: bold;
-  /* Başlıkları kalınlaştırdım */
   color: rgb(150, 125, 100);
-  /* Başlık rengi değiştirdim */
   background-color: rgb(240, 230, 220);
-  /* Başlık arka plan rengi */
   padding: 10px;
-  /* Başlık etrafında boşluk ekledim */
   border-radius: 5px;
-  /* Kenarları yuvarlattım */
   text-align: center;
-  /* Başlıkları ortaladım */
 }
 
 h3 {
@@ -43,70 +35,48 @@ h3 {
 }
 
 header {
-  position: fixed;
-  top: 0;
-  width: 100%;
   background-color: #fff;
-  height: 6em;
+  color: #fff;
+  padding: 10px;
+  position: relative;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Hafif gölge ekledim */
-  display: flex;
-  align-items: center;
-  padding: 0 2%;
-  justify-content: space-between;
-  /* Butonlar ve logo arasındaki boşluğu kontrol eder */
 }
 
-.logo {
-  font-family: "Italianno", cursive;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.site-title {
   font-size: 2.5em;
   color: rgb(101, 84, 66);
 }
 
-.nav {
+.main-nav {
   display: flex;
   gap: 10px;
-  /* Butonlar arasına boşluk ekledim */
   align-items: center;
-  /* Butonları ortaladım */
 }
 
-.nav-btn,
-.login-btn {
+.main-nav .btn {
   text-decoration: none;
   cursor: pointer;
   font-size: 1em;
   padding: 10px 20px;
-  /* Padding'i artırdım */
   color: #000;
   background-color: rgb(231, 219, 205);
   border: 1px solid rgb(200, 190, 175);
-  /* Buton kenarına hafif bir sınır ekledim */
   border-radius: 5px;
-  /* Kenarları yuvarlattım */
   transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-.nav-btn:hover,
-.login-btn:hover {
+.main-nav .btn:hover {
   color: #fff;
   background-color: rgb(229, 156, 72);
-}
-
-.overflow {
-  position: absolute;
-  top: 3em;
-  width: 100%;
-  height: 3em;
-  overflow: hidden;
-}
-
-#headshape {
-  margin: 0 -50% 0;
-  width: 200%;
-  height: 50vh;
-  background-color: rgb(231, 219, 205);
-  border-radius: 50%;
 }
 
 main {
@@ -176,6 +146,32 @@ input {
   color: rgba(101, 84, 66, 0.549);
 }
 
+.overflow {
+  position: absolute;
+  top: 3em;
+  width: 100%;
+  height: 3em;
+  overflow: hidden;
+}
+
+#headshape {
+  margin: 0 -50% 0;
+  width: 200%;
+  height: 50vh;
+  background-color: rgb(231, 219, 205);
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
 @media screen and (max-width: 550px) {
 
   header {
@@ -185,29 +181,23 @@ input {
     height: auto;
   }
 
-  .logo {
+  .site-title {
     margin: 1em 0;
   }
 
-  .nav {
+  .main-nav {
     gap: 5px;
   }
 
-  .nav-btn,
-  .login-btn {
+  .main-nav .btn {
     width: auto;
     height: 2em;
     padding: 1em;
     font-size: 0.8em;
-    /* Mobil cihazlarda font boyutunu küçülttüm */
   }
 
-  .nav-btn {
+  .main-nav .btn {
     border-radius: 2em 0 0 2em;
-  }
-
-  .login-btn {
-    border-radius: 0 2em 2em 0;
   }
 
   .overflow {
@@ -252,11 +242,10 @@ input {
   }
 
   footer {
-    margin-top: 2em;
-    background-color: #44a870;
+    margin-top: 240px;
+    background-color: #fff;
     color: #fff;
     padding: 10px;
     text-align: center;
-    position: relative;
   }
 }
